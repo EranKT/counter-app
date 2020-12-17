@@ -4,7 +4,6 @@ class Counter extends Component {
     state = {
 
         count: 0,
-        tags: ['tag1', 'tag2', 'tag3']
 
     }
 
@@ -22,9 +21,6 @@ class Counter extends Component {
             className="btn btn-secondary btn-sm">
                 Increment
             </button>
-            <ul>
-                {this.state.tags.map(tag => <li key={tag}>{tag}</li>)}
-            </ul>
         </div >;
     }
 

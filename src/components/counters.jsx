@@ -11,8 +11,8 @@ class Counters extends Component {
         ]
       }
 
-      handleDelete = () => {
-console.log('handle Delete called')
+      handleDelete = (counterId) => {
+console.log('handle Delete called', counterId)
       }
 
     render() { 

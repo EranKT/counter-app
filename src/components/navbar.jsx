@@ -8,7 +8,7 @@ class NavBar extends Component {
           <a className="navbar-brand" href="#">
             Navbar{" "}
             <span className="badge badge-pill badge-secondary">
-              {this.props.counter}
+              {this.props.totalCounters}
             </span>
           </a>
         </div>
